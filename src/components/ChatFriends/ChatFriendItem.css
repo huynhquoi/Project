@@ -1,0 +1,55 @@
+.chatFL-friend {
+    display: flex;
+    width: 75%;
+    margin: 10px;
+    margin-left: 17%;
+    margin-right: 5%;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 20px #9c9c9c;
+    transition: transform 0.3s ease;
+}
+
+.chatFL-friend:hover {
+    transform: scale(1.1);
+}
+
+.chatFL-friend__image {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.chatFL-friend__image .friend-img {
+    display: block;
+    background: url('../images/366884c6edf00546424878443d7d7c72.jpg');
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.chatFL-friend__infor {
+    display: block;
+    margin-left: 5%;
+}
+
+.chatFL-friend__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50%;
+}
+
+.chatFL-friend__newMess {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50%;
+}
